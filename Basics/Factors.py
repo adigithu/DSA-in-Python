@@ -6,4 +6,6 @@ for i in range(1, int(sqrt(n))+1):
         result.append(i)
         if n//i !=i:
             result.append(n//i)
+# result.sort()
+# print(sorted(result))
 print(result)
