@@ -1,0 +1,11 @@
+num=list(map(int, input("Enter numbers: ").split()))
+num[1]=200
+print(f"The updated list after modification is {num}")
+num.append(600)
+print(f"The updated list after appending the given element in the list is {num}")
+num.insert(3, 350)
+print(f"The updated list after insertion of a new element is {num}")
+num.remove(600)
+print("The updated list is", num)
+num.pop(0)
+print(num)
